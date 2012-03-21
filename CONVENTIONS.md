@@ -11,3 +11,5 @@
 - Use Draper "Decorator" classes instead of Presenters or helper methods: As mendicant community friend Steve Klabnik will attest to (http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design, http://blog.steveklabnik.com/posts/2011-09-09-better-ruby-presenters), using some type of Presentation class is OO. Steve also is a contributor to Draper, a neat gem that provides a base Decorator class to save you the work of creating your own base Presenter class. The Railscasts episode on Draper is a good place to learn what you need to know: http://railscasts.com/episodes/286-draper
 
 - Use the old hash syntax hashrocket instead of the newer "hashrocket-less" one. While the newer syntax is aesthetically pleasing, it's limitation to symbol keys make it difficult to stay consistent within files.
+
+- Use coffeescript rather than regular javascript. The syntax is nicer to read and write, plus it compiles down to excellent looking javascript.
